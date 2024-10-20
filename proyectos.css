@@ -311,7 +311,7 @@
         width: 79%;
         height: 66%;
         font-size: 282%;
-        animation: carrusel 35s linear infinite;
+        animation: carrusel 40s linear infinite;
     }
 
     #izquierdaViewport {
@@ -326,7 +326,7 @@
 
     @keyframes carrusel {
         from {
-            transform: rotateY(360deg) translateZ(500px);
+            transform: rotateY(360deg) translateZ(420px);
             z-index: 10;
             opacity: 0.95;
         }
@@ -336,7 +336,7 @@
         }
 
         to {
-            transform: rotateY(0deg) translateZ(500px);
+            transform: rotateY(0deg) translateZ(420px);
             z-index: 10;
         }
     }
@@ -367,6 +367,10 @@
 
     #digestivo {
         animation-delay: -30s;
+    }
+
+    #superman {
+        animation-delay: -35s;
     }
 
     #Abajoproyectos {
@@ -573,7 +577,7 @@
         width: 100%;
         height: 66%;
         font-size: 282%;
-        animation: carrusel 35s linear infinite;
+        animation: carrusel 40s linear infinite;
     }
 
     #izquierdaViewport {
@@ -629,6 +633,10 @@
 
     #digestivo {
         animation-delay: -30s;
+    }
+
+    #superman {
+        animation-delay: -35s;
     }
 
     #Abajoproyectos {
