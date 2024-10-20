@@ -1,0 +1,108 @@
+#viewportSobreMi {
+    background-color: rgba(0, 0, 0, 0.63);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: none;
+    align-items: center;
+    transition: 15s;
+}
+
+/* --------carta giratoria--------------------------------------------------- */
+
+.carta {
+    /*contenedor de la carta*/
+    position: relative;
+    width: 33%;
+    height: 115%;
+    top: 22%;
+    left: 6%;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+.frente {
+    /*frente, osea la primera cara que vez*/
+    position: absolute;
+    transform: perspective(600px) rotateY(0deg);
+    /*se pone aqui el transform y luego en el hover porque la carta comienza sin moverce osea rotacion 0 luego en el hover se gira 180 grados*/
+    background: rgba(0, 0, 0, 0.342);
+    width: 60%;
+    height: 60%;
+    backface-visibility: hidden;
+    /*esto es para volver la cara oculta cuando este en el lado no visible */
+    transition: .5s;
+    box-shadow: 0 5px 10px black;
+    background-image: url(Recursos/yocartoon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10%;
+}
+
+.espalda {
+    position: absolute;
+    /*espalda, osea la segunta cara que vez o la de atras*/
+    transform: perspective(600px) rotateY(180deg);
+    /*igual aqui como esta es la cara de espalda ya esta a 180 grados y con el hover se consigue que vaya al frente avanzando a 360 grados*/
+    background: rgba(0, 0, 0, 0.342);
+    width: 60%;
+    height: 60%;
+    backface-visibility: hidden;
+    /*esto es para volver la cara oculta cuando este en el lado no visible */
+    transition: .5s;
+    box-shadow: 0 5px 10px black;
+    background-image: url(Recursos/yo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10%;
+}
+
+.carta:hover .frente {
+    /* esto ya sabes para que es. pero te lo esplico, con eso cuando pasas el raton las caras giran asta ponerce en los grados que le pongas en rotate como la primera carta arranca en 0 con el hover girara 180 */
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.carta:hover .espalda {
+    transform: perspective(600px) rotateY(360deg);
+    /*como la segunda cara o trasera arranca en 180 gira hasta los 360*/
+}
+
+/* ---precentacion-------------------------------------- */
+
+.precentacion {
+    width: 55%;
+    height: 83%;
+    background-color: rgba(145, 144, 144, 0.336);
+    box-shadow: 8px 8px 15px #000000;
+    border-radius: 30px;
+    overflow: scroll;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+h4{
+    color: black;
+    text-align: center;
+}
+
+a{
+  text-decoration: none;  
+}
+
+.precentacion,
+h3 {
+    font-size: 2em;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+#ptexto {
+    font-size: 0.58em;
+    text-align: justify;
+    padding: 30px;
+    color: white;
+}

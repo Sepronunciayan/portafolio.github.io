@@ -1,0 +1,145 @@
+/* -----contacto--------------------------------------------------------------------- */
+
+#viewportContacto {
+    background-color: rgba(0, 0, 0, 0.63);
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+
+}
+
+#derechaContactos {
+    background-color: rgba(0, 0, 0, 0);
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5%;
+}
+
+#iframe {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    text-decoration-line: none;
+    color: white;
+}
+
+iframe {
+    width: 80%;
+    height: 60%;
+}
+
+
+#izquierdaContactos {
+    width: 50%;
+    background-color: rgba(150, 43, 43, 0);
+    height: 100%;
+    overflow: hidden;
+}
+
+#izquierdaArribaContactos {
+    width: 100%;
+    background-color: rgba(26, 23, 23, 0.911);
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tituloContacto {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    text-decoration-line: none;
+    color: white;
+}
+
+/* -------------------------------------------------------------------------- */
+
+#izquierdaAbajoContactos {
+    width: 100%;
+    background-color: rgba(82, 82, 82, 0.418);
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+#textoContacto{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    text-decoration-line: none;
+    color: white;
+    margin: 25px;
+    text-align: center;
+}
+
+.logosContactos {
+    background-color: rgba(150, 43, 43, 0);
+    width: 20%;
+    height: 14%;
+    margin: -20px;
+    position: relative;
+    bottom:  5%;
+}
+
+.legendContactos {
+    width: 100%;
+    text-decoration: none;
+    /* text-align: center; */
+    text-decoration-line: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 122%;
+    color: white;
+    
+}
+
+#whatsapp {
+    background-image: url(Recursos/whatsapp.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+#instagram {
+    background-image: url(Recursos/instagram.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+
+}
+
+#linkeding {
+    background-image: url(Recursos/linkeding.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+#gmail {
+    background-image: url(Recursos/gmail.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+#twitter {
+    background-image: url(Recursos/twitter.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+/* -------------------------------------------------------------------------- */

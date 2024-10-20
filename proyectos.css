@@ -1,0 +1,792 @@
+@media screen and (max-width: 1019px) {
+    /*s20 ultra*/
+
+    .carta {
+        position: relative;
+        width: 60%;
+        height: 103%;
+        top: 22%;
+        left: 4%;
+        border-radius: 5%;
+        overflow: hidden;
+    }
+
+    .precentacion {
+        width: 81%;
+        height: 78%;
+        position: relative;
+        left: -52px;
+    }
+
+    .menu,
+    .lista {
+        font-size: 0.79em;
+    }
+
+    .viewport {
+        width: 93%;
+        height: 90%;
+        flex-direction: column;
+    }
+
+    #derechaViewport {
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        height: 50%;
+
+    }
+
+    .carrusel-content {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        top: -10px;
+    }
+
+    .tarjeta {
+        width: 36%;
+        height: 70%;
+        font-size: 282%;
+        animation: carrusel 35s linear infinite;
+    }
+
+    #izquierdaViewport {
+        background-color: rgba(0, 0, 0, 0.63);
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    @keyframes carrusel {
+        from {
+            transform: rotateY(360deg) translateZ(400px);
+            z-index: 10;
+            opacity: 0.95;
+        }
+
+        50% {
+            z-index: -10;
+        }
+
+        to {
+            transform: rotateY(0deg) translateZ(400px);
+            z-index: 10;
+        }
+    }
+
+    #pixar {
+        animation-delay: -0s;
+    }
+
+    #galletas {
+        animation-delay: -5s;
+    }
+
+    #guinness {
+        animation-delay: -10s;
+    }
+
+    #marvel {
+        animation-delay: -15s;
+    }
+
+    #asimov {
+        animation-delay: -20s;
+    }
+
+    #cartasAnimales {
+        animation-delay: -25s;
+    }
+
+    #digestivo {
+        animation-delay: -30s;
+    }
+
+    #Abajoproyectos {
+        width: 100%;
+        height: 100%;
+        padding: 15px 0px 0px 0px;
+        gap: 7%;
+    }
+
+    #tituloProyecto {
+        font-size: 1.5em;
+    }
+
+    .proyectos {
+        width: 330px;
+        height: 360px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: -11px;
+    }
+
+    .proyecto1D {
+        background-position: 0px -74px;
+        object-fit: contain;
+        width: 100%;
+        height: 50%;
+        background-color: rgba(0, 255, 255, 0.5);
+        border-radius: 30px 30px 0 0;
+        z-index: 1;
+    }
+
+    .proyecto1I {
+        width: 92%;
+        height: 43%;
+        background-color: rgba(0, 0, 0, 0.719);
+        border-radius: 0 0 30px 30px;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 0.737em;
+        text-align: justify;
+        padding: 15px;
+        z-index: 1;
+    }
+
+    #proyectos1:hover {
+        transform: scale(1.1);
+        z-index: 9999;
+    }
+
+    .proyecto2D {
+        background-position: 0px -74px;
+        object-fit: contain;
+        width: 100%;
+        height: 50%;
+        background-color: rgba(0, 255, 255, 0.5);
+        border-radius: 30px 30px 0 0;
+        z-index: 1;
+    }
+
+    .proyecto2I {
+        width: 92%;
+        height: 43%;
+        background-color: rgba(0, 0, 0, 0.719);
+        border-radius: 0 0 30px 30px;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 0.737em;
+        text-align: justify;
+        padding: 15px;
+        z-index: 1;
+    }
+
+    #proyectos1:hover .proyecto2I .proyecto2D {
+        transform: scale(1.1);
+        z-index: 9999;
+    }
+
+    .proyecto3D {
+        width: 100%;
+        height: 50%;
+        background-color: rgba(0, 255, 255, 0.5);
+        border-radius: 30px 30px 0 0;
+        z-index: 1;
+    }
+
+    .proyecto3I {
+        width: 88%;
+        height: 39%;
+        background-color: rgba(0, 0, 0, 0.212);
+        border-radius: 0 0 30px 30px;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 0.73em;
+        text-align: justify;
+        padding: 15px;
+        z-index: 1;
+    }
+
+    .proyecto4D {
+        width: 100%;
+        height: 50%;
+        background-color: rgba(0, 255, 255, 0.5);
+        border-radius: 30px 30px 0 0;
+        z-index: 1;
+    }
+
+    .proyecto4I {
+        width: 88%;
+        height: 39%;
+        background-color: rgba(0, 0, 0, 0.212);
+        border-radius: 0 0 30px 30px;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 0.73em;
+        text-align: justify;
+        padding: 15px;
+        z-index: 1;
+    }
+
+    /* ------------------- */
+
+    .logosContactos {
+        background-color: rgba(150, 43, 43, 0);
+        width: 15%;
+        height: 14%;
+        margin: 10px;
+        position: relative;
+        bottom: 5%;
+        font-size: 96%;
+    }
+
+    #gmail {
+        width: 120%;
+        height: 100%;
+    }
+}
+
+/* -------------------------------------------------------------------------- */
+
+@media screen and (max-width: 712px) {
+    /*tab s4*/
+
+    .menu,
+    .lista {
+        font-size: 0.79em;
+    }
+
+    .viewport {
+        width: 80%;
+        height: 90%;
+        flex-direction: column;
+    }
+
+    #viewportSobreMi {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        display: none;
+        align-items: center;
+        transition: 15s;
+        flex-direction: column;
+    }
+
+    #derechaViewport {
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        height: 50%;
+
+    }
+
+    .carta {
+        position: relative;
+        width: 86%;
+        height: 43%;
+        top: 3%;
+        left: 15%;
+        border-radius: 5%;
+        overflow: hidden;
+    }
+
+    .precentacion {
+        width: 81%;
+        height: 66%;
+        position: absolute;
+        top: 32%;
+        left: 6%;
+    }
+
+    #ptexto {
+        font-size: 0.57em;
+        text-align: justify;
+        padding: 11px;
+        color: white;
+    }
+
+    /* -------------------------- */
+    .carrusel-content {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        top: -15px;
+    }
+
+    .tarjeta {
+        width: 79%;
+        height: 66%;
+        font-size: 282%;
+        animation: carrusel 35s linear infinite;
+    }
+
+    #izquierdaViewport {
+        background-color: rgba(0, 0, 0, 0.63);
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    @keyframes carrusel {
+        from {
+            transform: rotateY(360deg) translateZ(500px);
+            z-index: 10;
+            opacity: 0.95;
+        }
+
+        50% {
+            z-index: -10;
+        }
+
+        to {
+            transform: rotateY(0deg) translateZ(500px);
+            z-index: 10;
+        }
+    }
+
+    #pixar {
+        animation-delay: -0s;
+    }
+
+    #galletas {
+        animation-delay: -5s;
+    }
+
+    #guinness {
+        animation-delay: -10s;
+    }
+
+    #marvel {
+        animation-delay: -15s;
+    }
+
+    #asimov {
+        animation-delay: -20s;
+    }
+
+    #cartasAnimales {
+        animation-delay: -25s;
+    }
+
+    #digestivo {
+        animation-delay: -30s;
+    }
+
+    #Abajoproyectos {
+        width: 100%;
+        height: 100%;
+        padding: 15px 0px 0px 0px;
+        gap: 7%;
+    }
+
+    #tituloProyecto {
+        font-size: 1.5em;
+    }
+
+    .proyectos {
+        width: 380px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 6px;
+    }
+
+    .proyecto1D {
+        width: 100%;
+        height: 50%;
+        background-color: rgba(0, 255, 255, 0.5);
+        border-radius: 30px 30px 0 0;
+        z-index: 1;
+    }
+
+    .proyecto1I {
+        width: 92%;
+        height: 44%;
+        background-color: rgba(0, 0, 0, 0.719);
+        border-radius: 0 0 30px 30px;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 0.737em;
+        text-align: justify;
+        padding: 15px;
+        z-index: 1;
+    }
+
+    .proyecto2D {
+        width: 100%;
+        height: 50%;
+        background-color: rgba(0, 255, 255, 0.5);
+        border-radius: 30px 30px 0 0;
+        z-index: 1;
+    }
+
+    .proyecto2I {
+        width: 90%;
+        height: 43%;
+        background-color: rgba(0, 0, 0, 0.719);
+        border-radius: 0 0 30px 30px;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 0.737em;
+        text-align: justify;
+        padding: 15px;
+        z-index: 1;
+    }
+
+    .proyecto3D {
+        width: 100%;
+        height: 50%;
+        background-color: rgba(0, 255, 255, 0.5);
+        border-radius: 30px 30px 0 0;
+        z-index: 1;
+    }
+
+    .proyecto3I {
+        width: 88%;
+        height: 39%;
+        background-color: rgba(0, 0, 0, 0.212);
+        border-radius: 0 0 30px 30px;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 0.73em;
+        text-align: justify;
+        padding: 15px;
+        z-index: 1;
+    }
+
+    .proyecto4D {
+        width: 100%;
+        height: 50%;
+        background-color: rgba(0, 255, 255, 0.5);
+        border-radius: 30px 30px 0 0;
+        z-index: 1;
+    }
+
+    .proyecto4I {
+        width: 88%;
+        height: 39%;
+        background-color: rgba(0, 0, 0, 0.212);
+        border-radius: 0 0 30px 30px;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 0.73em;
+        text-align: justify;
+        padding: 15px;
+        z-index: 1;
+    }
+
+    /* ------------------------- */
+
+    #viewportContacto {
+        background-color: rgba(0, 0, 0, 0.63);
+        width: 100%;
+        height: 100%;
+        display: none;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #derechaContactos {
+        background-color: rgba(0, 0, 0, 0);
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 5%;
+    }
+
+    #izquierdaContactos {
+        width: 100%;
+        background-color: rgba(150, 43, 43, 0);
+        height: 50%;
+        overflow: hidden;
+    }
+}
+
+/* -------------------------------------------------------------------------- */
+
+@media screen and (max-width: 412px) {
+    /*s20 ultra*/
+
+    .menu,
+    .lista {
+        font-size: 0.79em;
+    }
+
+    .viewport {
+        width: 80%;
+        height: 90%;
+        flex-direction: column;
+    }
+
+    #viewportSobreMi {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        display: none;
+        align-items: center;
+        transition: 15s;
+        flex-direction: column;
+    }
+
+    #derechaViewport {
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        height: 50%;
+
+    }
+
+    .carta {
+        position: relative;
+        width: 86%;
+        height: 43%;
+        top: 3%;
+        left: 15%;
+        border-radius: 5%;
+        overflow: hidden;
+    }
+
+    .precentacion {
+        width: 81%;
+        height: 66%;
+        position: absolute;
+        top: 32%;
+        left: 4%;
+    }
+
+    #ptexto {
+        font-size: 0.5em;
+        text-align: justify;
+        padding: 11px;
+        color: white;
+    }
+
+    /* -------------------------- */
+    .carrusel-content {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        top: -15px;
+    }
+
+    .tarjeta {
+        width: 100%;
+        height: 66%;
+        font-size: 282%;
+        animation: carrusel 35s linear infinite;
+    }
+
+    #izquierdaViewport {
+        background-color: rgba(0, 0, 0, 0.63);
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    @keyframes carrusel {
+        from {
+            transform: rotateY(360deg) translateZ(350px);
+            z-index: 10;
+            opacity: 0.95;
+        }
+
+        50% {
+            z-index: -10;
+        }
+
+        to {
+            transform: rotateY(0deg) translateZ(350px);
+            z-index: 10;
+        }
+    }
+
+    #pixar {
+        animation-delay: -0s;
+    }
+
+    #galletas {
+        animation-delay: -5s;
+    }
+
+    #guinness {
+        animation-delay: -10s;
+    }
+
+    #marvel {
+        animation-delay: -15s;
+    }
+
+    #asimov {
+        animation-delay: -20s;
+    }
+
+    #cartasAnimales {
+        animation-delay: -25s;
+    }
+
+    #digestivo {
+        animation-delay: -30s;
+    }
+
+    #Abajoproyectos {
+        width: 100%;
+        height: 100%;
+        padding: 15px 0px 0px 0px;
+        gap: 7%;
+    }
+
+    #tituloProyecto {
+        font-size: 1.5em;
+    }
+
+    .proyectos {
+        width: 280px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 6px;
+    }
+
+    .proyecto1D {
+        width: 100%;
+        height: 50%;
+        background-color: rgba(0, 255, 255, 0.5);
+        border-radius: 30px 30px 0 0;
+        z-index: 1;
+    }
+
+    .proyecto1I {
+        width: 90%;
+        height: 43%;
+        background-color: rgba(0, 0, 0, 0.719);
+        border-radius: 0 0 30px 30px;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 0.737em;
+        text-align: justify;
+        padding: 15px;
+        z-index: 1;
+    }
+
+    .proyecto2D {
+        width: 100%;
+        height: 50%;
+        background-color: rgba(0, 255, 255, 0.5);
+        border-radius: 30px 30px 0 0;
+        z-index: 1;
+    }
+
+    .proyecto2I {
+        width: 90%;
+        height: 43%;
+        background-color: rgba(0, 0, 0, 0.719);
+        border-radius: 0 0 30px 30px;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 0.737em;
+        text-align: justify;
+        padding: 15px;
+        z-index: 1;
+    }
+
+    .proyecto3D {
+        width: 100%;
+        height: 50%;
+        background-color: rgba(0, 255, 255, 0.5);
+        border-radius: 30px 30px 0 0;
+        z-index: 1;
+    }
+
+    .proyecto3I {
+        width: 88%;
+        height: 39%;
+        background-color: rgba(0, 0, 0, 0.212);
+        border-radius: 0 0 30px 30px;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 0.73em;
+        text-align: justify;
+        padding: 15px;
+        z-index: 1;
+    }
+
+    .proyecto4D {
+        width: 100%;
+        height: 50%;
+        background-color: rgba(0, 255, 255, 0.5);
+        border-radius: 30px 30px 0 0;
+        z-index: 1;
+    }
+
+    .proyecto4I {
+        width: 88%;
+        height: 39%;
+        background-color: rgba(0, 0, 0, 0.212);
+        border-radius: 0 0 30px 30px;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 0.73em;
+        text-align: justify;
+        padding: 15px;
+        z-index: 1;
+    }
+
+    /* ------------------------- */
+
+    #viewportContacto {
+        background-color: rgba(0, 0, 0, 0.63);
+        width: 100%;
+        height: 100%;
+        display: none;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #derechaContactos {
+        background-color: rgba(0, 0, 0, 0);
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 5%;
+    }
+
+    #izquierdaContactos {
+        width: 100%;
+        background-color: rgba(150, 43, 43, 0);
+        height: 100%;
+        overflow: hidden;
+    }
+
+    #textoContacto {
+        font-size: 1.1em;
+    }
+
+    .logosContactos {
+        background-color: rgba(150, 43, 43, 0);
+        width: 13%;
+        height: 10%;
+        margin: 20px;
+        position: relative;
+        bottom: 7%;
+        font-size: 74%;
+    }
+
+    .legendContactos {
+        width: 100%;
+        text-decoration: none;
+        text-align: center;
+        text-decoration-line: none;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 100%;
+        color: white;
+    }
+}
+
+/* -------------------------------------------------------------------------- */
