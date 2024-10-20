@@ -324,7 +324,7 @@ li {
     border-radius: 20px;
     text-align: center;
     cursor: pointer;
-    animation: carrusel 35s linear infinite;
+    animation: carrusel 40s linear infinite;
 }
 
 .titulos-carrusell {
@@ -338,7 +338,7 @@ li {
 
 @keyframes carrusel {
     from {
-        transform: rotateX(360deg) translateZ(270px);
+        transform: rotateX(360deg) translateZ(300px);
         z-index: 10;
         opacity: 0.95;
     }
@@ -348,7 +348,7 @@ li {
     }
 
     to {
-        transform: rotateX(0deg) translateZ(270px);
+        transform: rotateX(0deg) translateZ(300px);
         z-index: 10;
     }
 }
@@ -417,6 +417,16 @@ li {
 }
 
 .digestivo {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+#superman {
+    animation-delay: -35s;
+}
+
+.superman {
     width: 100%;
     height: 100%;
     border-radius: 20px;
